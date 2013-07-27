@@ -17,11 +17,11 @@ Initialize the social-feed extension:
         <?php
     $this->widget('ext.socialfeed.SocialFeed', array(
         'fb_token' => '150849908413827|uYDHoXrvPZOLkQ-zRz_XoYdEeYM', // FB Token
-        'template' => 'template.html', // required facebook username
+        'template' => 'template.html', // template
          'fb_username' => 'uexel', // required facebook username
         'show_media' => false, // optional true|false (default: true)
-        'length' => 500, // optional true|false (default: true)
-        'fb_limit' => 5, // optional true|false (default: true)
+        'length' => 500, // length of post
+        'fb_limit' => 5, // number of post you wanna show
         'cookies' => true, // optional true|false (default: true)
     ));
     ?>
@@ -41,4 +41,6 @@ To use Facebook feed, please <a href="https://developers.facebook.com/apps">regi
 put it in  <em>fb_token</em>.<br/>
 <strong>Attention!</strong> A current version of extension does not fully support IE browser. Please follow the process of solving issues for IE.
 
+<h4>Credits</h4>
 
+This extension is developed based on jquery social feed plugin by <a href="https://github.com/pavelk2/social-feed">Pavel Kucherbaev</a>
