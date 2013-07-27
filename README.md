@@ -24,21 +24,17 @@ Create a container for your feed:
 
 Initialize the social-feed extension:
 
-        <script>
-        $('.social-feed-container').socialfeed({
-                    fb_username:'barack.obama',
-                    fb_limit:2,
-                    fb_token:'YOUR_FACEBOOK_APP_ACCESS_TOKEN',
-                    vk_username:1,
-                    vk_limit:2,
-                    vk_source: 'all',
-                    tw_limit:2,
-                    tw_username:'jack',
-                    length:130,
-                    cookies:true,
-                    show_media:true
-                });
-        </script>
+        <?php
+    $this->widget('ext.socialfeed.SocialFeed', array(
+        'fb_token' => '150849908413827|uYDHoXrvPZOLkQ-zRz_XoYdEeYM', // FB Token
+        'template' => 'template.html', // required facebook username
+         'fb_username' => 'uexel', // required facebook username
+        'show_media' => false, // optional true|false (default: true)
+        'length' => 500, // optional true|false (default: true)
+        'fb_limit' => 5, // optional true|false (default: true)
+        'cookies' => true, // optional true|false (default: true)
+    ));
+    ?>
 
 When you run the extension, make sure that you have your <strong>webserver running</strong>, otherwise you can get 
 the next problem:
