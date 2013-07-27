@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link href="css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+        <script src="http://kucherbaev.com/plugins/jquery/jquery-1.7.2.min.js"></script>
+        <script src="js/jquery.socialfeed.utility.js"></script>
+        <script src="js/jquery.socialfeed.js"></script>
+        <style>
+            /*This style is needed only for the plugin demo page. Do not use it in your projects*/
+            .credits{text-align:center;padding:20px;margin-top:10px;font-size:12px;}
+            body{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                  font-size: 14px;
+                  line-height: 20px;
+                  color: #333333;
+                  background-color: #ffffff;
+                  text-align:center;
+            }
+            a{color: #0088cc;text-decoration: none;}
+            a:hover,a:focus {color: #005580;text-decoration: underline;}
+            .muted {color: #999999;}
+            .container {display:inline-block;width:600px;}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h3 class="muted">social - feed</h3>
+            <div class="social-feed-container">
+            </div>
+           
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.social-feed-container').socialfeed({
+                    fb_username:'uexel',
+                    fb_limit:5,
+                    fb_token:'150849908413827|uYDHoXrvPZOLkQ-zRz_XoYdEeYM',
+                    tw_limit:2,
+                    tw_username:'jack',
+                    length:130,
+                    show_media:false,
+                    cookies:true
+                });
+            });
+        </script>
+    </body>
+
+</html>
