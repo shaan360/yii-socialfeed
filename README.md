@@ -11,16 +11,6 @@ you like to have more in the extension. It will help me to stay focused on the i
 </p>
 <hr>
 <h4>Getting started</h4>
-Connect css and js:
-
-        <link href="css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="js/jquery.socialfeed.utility.js"></script>
-        <script src="js/jquery.socialfeed.js"></script>
-
-Create a container for your feed:
-
-        <div class="social-feed-container"></div>
 
 Initialize the social-feed extension:
 
