@@ -1,5 +1,5 @@
 <?php
-
+#social feed extension by http://shaan360.com
 class SocialFeed extends CWidget {
 
     /**
