@@ -1,7 +1,7 @@
 Social-feed
 ===========
 A YII extension which shows a user feed from the most popular social networks.<br/> 
-Currently supports: <a href="http://facebook.com">Facebook</a>, <a href="http://twitter.com">Twitter</a>, <a href="http://vk.com">VK</a>
+Currently supports: <a href="http://facebook.com">Facebook</a>
 <hr>
 If you use this extension, please <a href="mailto:shaan@uexel.com">write me a short message</a> with a link to the project where you embed the extension, and what would 
 you like to have more in the extension. It will help me to stay focused on the important issues and see the global picture!
